@@ -135,10 +135,10 @@ def home(request, q_id, respondent_id):
     global left_alg
     global right_alg
         
-    left_alg = getAlgs(q_id)[0]
-    right_alg = getAlgs(q_id)[1]
     request.session.flush()
     if q_id <= 20:
+        left_alg = getAlgs(q_id)[0]
+        right_alg = getAlgs(q_id)[1]
         context = {
             'left_snippets': alg_to_snippets[left_alg][q_id],
             'right_snippets': alg_to_snippets[right_alg][q_id],
