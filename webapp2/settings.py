@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1xlxrvc)_w0hd!qv3^ip)ax#yn4@4g6o@dtp+y6=rao%^f6^tl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['blooming-castle-96938.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['mt-exp01.herokuapp.com','localhost']
 
 
 # Application definition
