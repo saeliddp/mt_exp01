@@ -9,12 +9,12 @@ from django.views.decorators.cache import cache_control
 num_search_results = 10
 # algorithms to be initially displayed on the left and right, respectively
 left_alg = "0g"
-right_alg = "03gfp"
+right_alg = "03gf"
 # algorithms to be displayed on left and right after 10 turns
 round_one_l = "0g"
-round_one_r = "03gfp"
-round_two_l = "03gf"
-round_two_r = "05gf"
+round_one_r = "03gf"
+round_two_l = "03gfp"
+round_two_r = "05gfp"
 
 # maps algorithm names to lists of snippets
 alg_to_snippets = {
